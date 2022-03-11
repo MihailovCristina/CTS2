@@ -11,7 +11,7 @@ public class CreateTable implements ExpressionNOSQL {
     public void expression(MongoCollection<Document> collection) {
         MongoClient mongoClient = new MongoClient("localhost", 27017);
         MongoDatabase mongoDb = mongoClient.getDatabase("test");
-        if(mongoDb.getCollection("employees") != null) {
+        if (mongoDb.getCollection("employees") != null) {
             mongoDb.getCollection("employees").drop();
         }
 

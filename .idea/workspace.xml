@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d3f61ab-a0af-4828-a5cb-e01425f5520f" name="Changes" comment="">
+    <list default="true" id="5d3f61ab-a0af-4828-a5cb-e01425f5520f" name="Changes" comment="Commit - final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CTS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CTS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/CTS.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/database.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/contract/Database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/contract/ExpressionNOSQL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/contract/ExpressionSQL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/nosql/CreateTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/nosql/InsertData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/nosql/NOSQL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/nosql/ReadData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/orchestrators/OrchestratorNOSQL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/orchestrators/OrchestratorSQL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/sql/CreateTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/sql/InsertData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/sql/ReadData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/sql/SQL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CTS/ro/ase/cts/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CTS/ro/ase/cts/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/cts/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/cts/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/cts/nosql/CreateTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/cts/nosql/CreateTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/cts/nosql/NOSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/cts/nosql/NOSQL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +29,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -75,6 +59,37 @@
       <option name="presentableId" value="Default" />
       <updated>1646999076161</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit">
+      <created>1647002424237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647002424237</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit - final">
+      <created>1647002446757</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647002446757</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit" />
+    <MESSAGE value="Commit - final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit - final" />
   </component>
 </project>
