@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d3f61ab-a0af-4828-a5cb-e01425f5520f" name="Changes" comment="First">
-      <change afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/Main.java" afterDir="false" />
+    <list default="true" id="5d3f61ab-a0af-4828-a5cb-e01425f5520f" name="Changes" comment="Second">
       <change afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/contract/Database.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/contract/ExpressionNOSQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/contract/ExpressionSQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/orchestrators/Orchestrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/sql/CreateTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/sql/InsertData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/sql/ReadData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/nosql/CreateTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/nosql/InsertData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/nosql/NOSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/nosql/ReadData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/orchestrators/OrchestratorNOSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/sql/SQL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CTS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CTS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/orchestrators/Orchestrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar3/src/ro/ase/cts/orchestrators/OrchestratorSQL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,6 +48,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/sqlite-jdbc-3.30.1.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -87,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646999458789</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second">
+      <created>1647000713992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647000713992</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
-    <option name="LAST_COMMIT_MESSAGE" value="First" />
+    <MESSAGE value="Second" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second" />
   </component>
 </project>

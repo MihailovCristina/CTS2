@@ -6,14 +6,14 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class Orchestrator {
+public class OrchestratorSQL {
     ExpressionSQL expression;
     private final ExpressionSQL create;
     private final ExpressionSQL insert;
     private final ExpressionSQL read;
     Connection connection;
 
-    public Orchestrator(ExpressionSQL create, ExpressionSQL insert, ExpressionSQL read) {
+    public OrchestratorSQL(ExpressionSQL create, ExpressionSQL insert, ExpressionSQL read) {
         super();
         this.create = create;
         this.insert = insert;
